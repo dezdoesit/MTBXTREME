@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CCF17262BE9376D00DEBCF2 /* MtbJumps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF17252BE9376D00DEBCF2 /* MtbJumps.mp4 */; };
 		4CEE2F392BE9251200913B9C /* MTBViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F382BE9251200913B9C /* MTBViewApp.swift */; };
 		4CEE2F3B2BE9251200913B9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F3A2BE9251200913B9C /* ContentView.swift */; };
 		4CEE2F3D2BE9251500913B9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE2F3C2BE9251500913B9C /* Assets.xcassets */; };
 		4CEE2F402BE9251500913B9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE2F3F2BE9251500913B9C /* Preview Assets.xcassets */; };
+		4CEE2F4A2BE9253800913B9C /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F492BE9253800913B9C /* ListModel.swift */; };
+		4CEE2F4C2BE92F8A00913B9C /* SphereSpace.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE2F4B2BE92F8A00913B9C /* SphereSpace.usdz */; };
+		4CEE2F4F2BE9306400913B9C /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F4E2BE9306400913B9C /* ARViewModel.swift */; };
+		4CEE2F512BE930FA00913B9C /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F502BE930FA00913B9C /* FeatureView.swift */; };
+		4CEE2F532BE9311200913B9C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F522BE9311200913B9C /* HomeView.swift */; };
+		4CEE2F552BE9312900913B9C /* MTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F542BE9312900913B9C /* MTBView.swift */; };
+		4CEE2F572BE9314800913B9C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE2F562BE9314800913B9C /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CCF17252BE9376D00DEBCF2 /* MtbJumps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MtbJumps.mp4; sourceTree = "<group>"; };
 		4CEE2F352BE9251200913B9C /* MTBView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTBView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE2F382BE9251200913B9C /* MTBViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTBViewApp.swift; sourceTree = "<group>"; };
 		4CEE2F3A2BE9251200913B9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CEE2F3C2BE9251500913B9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEE2F3F2BE9251500913B9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CEE2F492BE9253800913B9C /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		4CEE2F4B2BE92F8A00913B9C /* SphereSpace.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = SphereSpace.usdz; path = "../../../Library/Mobile Documents/iCloud~com~apple~Playgrounds/Documents/SSC/My App copy 6.swiftpm/Resources/SphereSpace.usdz"; sourceTree = "<group>"; };
+		4CEE2F4E2BE9306400913B9C /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		4CEE2F502BE930FA00913B9C /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		4CEE2F522BE9311200913B9C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4CEE2F542BE9312900913B9C /* MTBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTBView.swift; sourceTree = "<group>"; };
+		4CEE2F562BE9314800913B9C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +67,12 @@
 		4CEE2F372BE9251200913B9C /* MTBView */ = {
 			isa = PBXGroup;
 			children = (
-				4CEE2F382BE9251200913B9C /* MTBViewApp.swift */,
-				4CEE2F3A2BE9251200913B9C /* ContentView.swift */,
+				4CEE2F482BE9252600913B9C /* App */,
+				4CEE2F472BE9252000913B9C /* Views */,
+				4CEE2F462BE9251A00913B9C /* Models */,
 				4CEE2F3C2BE9251500913B9C /* Assets.xcassets */,
+				4CCF17252BE9376D00DEBCF2 /* MtbJumps.mp4 */,
+				4CEE2F4B2BE92F8A00913B9C /* SphereSpace.usdz */,
 				4CEE2F3E2BE9251500913B9C /* Preview Content */,
 			);
 			path = MTBView;
@@ -65,6 +84,35 @@
 				4CEE2F3F2BE9251500913B9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CEE2F462BE9251A00913B9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CEE2F492BE9253800913B9C /* ListModel.swift */,
+				4CEE2F4E2BE9306400913B9C /* ARViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CEE2F472BE9252000913B9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CEE2F3A2BE9251200913B9C /* ContentView.swift */,
+				4CEE2F502BE930FA00913B9C /* FeatureView.swift */,
+				4CEE2F522BE9311200913B9C /* HomeView.swift */,
+				4CEE2F542BE9312900913B9C /* MTBView.swift */,
+				4CEE2F562BE9314800913B9C /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CEE2F482BE9252600913B9C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CEE2F382BE9251200913B9C /* MTBViewApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEE2F402BE9251500913B9C /* Preview Assets.xcassets in Resources */,
+				4CCF17262BE9376D00DEBCF2 /* MtbJumps.mp4 in Resources */,
+				4CEE2F4C2BE92F8A00913B9C /* SphereSpace.usdz in Resources */,
 				4CEE2F3D2BE9251500913B9C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEE2F572BE9314800913B9C /* ListView.swift in Sources */,
+				4CEE2F4A2BE9253800913B9C /* ListModel.swift in Sources */,
+				4CEE2F512BE930FA00913B9C /* FeatureView.swift in Sources */,
+				4CEE2F552BE9312900913B9C /* MTBView.swift in Sources */,
 				4CEE2F3B2BE9251200913B9C /* ContentView.swift in Sources */,
+				4CEE2F532BE9311200913B9C /* HomeView.swift in Sources */,
 				4CEE2F392BE9251200913B9C /* MTBViewApp.swift in Sources */,
+				4CEE2F4F2BE9306400913B9C /* ARViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +331,7 @@
 				DEVELOPMENT_TEAM = ZB5WA6672J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MTBXTREME;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +361,7 @@
 				DEVELOPMENT_TEAM = ZB5WA6672J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MTBXTREME;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
