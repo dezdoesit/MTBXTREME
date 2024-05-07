@@ -22,9 +22,6 @@ class listItemStore: ObservableObject {
         ListItem(symbol: "visionpro", title: "Feel The Thrill", subtitle: "Experience the joy of mountain biking! Look around and enjoy the view."),
         ListItem(symbol: "exclamationmark.triangle.fill", title: "Warning", subtitle: "This app will use your camera and the footage could cause motion sickness for some, Press Let's Ride! to feel the track."),
         ListItem(symbol: "sparkles", title: "Thank you!", subtitle: "Thanks for viewing! For more information see the link below...")
-
     ]
-
-
 }
 
